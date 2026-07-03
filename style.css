@@ -1,0 +1,30 @@
+body {
+    font-family: Arial;
+    text-align: center;
+    background: #111;
+    color: white;
+}
+
+#grid {
+    display: grid;
+    grid-template-columns: repeat(20, 25px);
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.cell {
+    width: 25px;
+    height: 25px;
+    border: 1px solid #333;
+}
+
+.wall { background: rgb(154, 28, 137); }
+.start { background: green; }
+.end { background: red; }
+.visited { background: blue; }
+.path { background: yellow; }
+
+button {
+    margin: 5px;
+    padding: 10px;
+}
