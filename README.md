@@ -41,10 +41,3 @@ Each grid cell is just a div, and I store its row/col using data attributes.
 
 While searching, I keep track of each cell's "parent" (the cell it came from), so once we hit the end, I can backtrack through parents to draw the final path.
 
-## Bugs / TODO
-
-- If you click Solve DFS without setting start/end it'll just error out (need to add that check like I did for BFS)
-- Want to add A* at some point
-- Maybe add random maze generation so I don't have to draw walls manually every time
-- Add a speed slider instead of a fixed 20ms delay
-- Grid probably shouldn't be clickable while it's solving
